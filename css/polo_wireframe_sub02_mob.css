@@ -1,0 +1,157 @@
+/* 헤더 */
+div.hdrWrap{
+    height: 40px;
+}
+div.hdrWrap>div.header{
+    line-height: 40px;
+}
+div.hdrWrap>div.header>h1{
+    font-size: 25px;
+}
+div.hdrWrap>div.header>ul.nav>li:nth-child(4){
+    font-size: 20px;
+}
+
+/* 메인 */
+div.mainWrap>div.main{
+    padding: 120px 0px;
+}
+
+/* 컨텐츠 공통 */
+div.cntWrap>div.content>div.section{
+    margin-top: 20px;
+}
+
+/* 컨텐츠01 */
+div.cntWrap>div.content.cnt01>div.header>h2>br{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.header>h2{
+    font-size: 20px;
+    line-height: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
+    height: 160px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
+    width: 210%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn{
+    right: 0;
+    bottom: -40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar{
+    display: none;
+}
+
+/* 컨텐츠02 */
+div.cntWrap>div.content.cnt02>div.header>h2{
+    font-size: 20px;
+    line-height: 20px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup{
+    width: 175%;
+    margin-left: -80%;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image{
+    height: 160px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image.i1{
+    height: 200px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView{
+    margin-left: 0px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.btns>div.btn{
+    left: 0;
+    top: 25px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.btns>div.bar{
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.texts>h3{
+    font-size: 12px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.texts>h5{
+    font-size: 12px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.texts>div.swatch{
+    font-size: 12px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.btns>div.more{
+    font-size: 10px;
+}
+
+/* 컨텐츠03 */
+div.cntWrap>div.content.cnt03>div.header>h2{
+    font-size: 20px;
+    line-height: 20px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup{
+    width: 175%;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.image{
+    height: 160px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.image.i1{
+    height: 200px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.btns>div.btn{
+    right: 0;
+    top: 25px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.btns>div.bar{
+    display: none;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.texts>h3{
+    font-size: 12px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.texts>h5{
+    font-size: 12px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.texts>div.swatch{
+    font-size: 12px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.btns>div.more{
+    font-size: 10px;
+}
+
+/* 컨텐츠04 */
+div.cntWrap>div.content.cnt04>div.header>h2{
+    font-size: 20px;
+    line-height: 20px;
+}
+div.cntWrap>div.content.cnt04>div.section{
+    margin-top: 0px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article{
+    width: calc(100% / 2 - 20px);
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.image{
+    height: 160px;
+}
+
+/* 푸터 */
+div.ftrWrap{
+    margin-top: 180px;
+}
+div.ftrWrap>div.footer{
+    padding: 20px 0px;
+}
+div.ftrWrap>div.footer>div.ftrTop{
+    line-height: 20px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h1{
+    font-size: 18px;
+}
+div.ftrWrap>div.footer>div.ftrTop>ul.nav{
+    font-size: 8px;
+    width: calc(100% / 4 * 3.2);
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    line-height: 20px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.sns{
+    font-size: 15px;
+}
