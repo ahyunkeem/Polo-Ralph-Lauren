@@ -47,6 +47,7 @@ div.hdrWrap>div.header>h1{
     float: left;
     color: #02073d;
     font-family: 'bask';
+    cursor: pointer;
 }
 div.hdrWrap>div.header>ul.nav{
     float: right;
@@ -193,6 +194,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artView{
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
     width: 115%;
+    height: 490px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup::after{
     display: block;
@@ -204,35 +206,27 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
     margin: 0px 10px;
     float: left;
 }
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article:hover{
+    box-shadow: 1px 1px 10px #000;
+}
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
     height: 480px;
-}
-div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i1{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i1{
     background-image: url('../image/mianpc_content1_article1.jpg');
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i2{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url('../image/mianpc_content1_article2.jpg');
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i3{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url('../image/mainpc_content1_article3.jpg');
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i4{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url('../image/mainpc_content1_article4.jpg');
-}
-div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image:hover{
-    box-shadow: 1px 1px 10px #000;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image:hover+div.texts{
     height: 120px;
@@ -247,14 +241,12 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>d
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>h3{
     font-size: 30px;
     line-height: 40px;
-    height: 40px;
     font-family: 'bask';
     text-transform: capitalize;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>h5{
     font-size: 18px;
     line-height: 20px;
-    height: 20px;
     font-family: 'arial';
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns{}
@@ -265,7 +257,7 @@ div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn{
     color: #fff;
     position: absolute;
     margin: auto;
-    top: 0;
+    top: -20px;
     bottom: 0;
     right: -80px;
     cursor: pointer;
@@ -366,23 +358,17 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>d
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.images>div.image{
     height: 600px;
     background-color: #000;
-}
-div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.images>div.image.i1{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.images>div.image.i1{
     background-image: url('../image/mainpc_content2_article1.jpg');
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.images>div.image.i2{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-image: url('../image/mainpc_content2_article2.jpg');
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.images>div.image.i3{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-image: url('../image/mainpc_content2_article3.jpg');
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.images>p{
@@ -459,7 +445,8 @@ div.cntWrap>div.content.cnt03>div.header{
     background-size: cover;
     background-position: center;
     background-image: url('../image/mainpc_content3_header.jpg');
-    width: (100% - 20px);
+    width: calc(100% - 20px);
+    margin: 0px 10px;
     height: 400px;
     padding-top: 160px;
 }
@@ -515,53 +502,33 @@ div.cntWrap>div.content.cnt03>div.section>div.article{
 div.cntWrap>div.content.cnt03>div.section>div.article>div.image{
     height: 280px;
     background-color: #ed9bac;
-}
-div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i1{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i1{
     background-image: url('../image/mainpc_content3_article1.jpg');
 }
 div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i2{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-image: url('../image/mainpc_content3_article2.jpg');
 }
 div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i3{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-image: url('../image/mainpc_content3_article3.jpg');
 }
 div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i4{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-image: url('../image/mainpc_content3_article4.jpg');
 }
 div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i5{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-image: url('../image/mainpc_content3_article5.jpg');
 }
 div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i6{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-image: url('../image/mainpc_content3_article6.jpg');
 }
 div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i7{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-image: url('../image/mainpc_content3_article7.jpg');
 }
 div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i8{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-image: url('../image/mainpc_content3_article8.jpg');
 }
 div.cntWrap>div.content.cnt03>div.section>div.article>div.texts{
@@ -652,19 +619,22 @@ div.ftrWrap>div.footer>div.ftrBtm>div.form{
 div.ftrWrap>div.footer>div.ftrBtm>div.form>p{
     font-size: 12px;
     line-height: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 div.ftrWrap>div.footer>div.ftrBtm>div.form>input{
     background-color: #041e3a;
     color: #fff;
     width: calc(100% / 6 * 3);
+    border: 0;
     border-bottom: 1px solid #fff;
     height: 30px;
+    font-size: 10px;
 }
 div.ftrWrap>div.footer>div.ftrBtm>div.form>button{
     background-color: #041e3a;
     color: #fff;
-    margin-left: -7px;
+    margin-left: -5px;
+    border: 0;
     border-bottom: 1px solid #fff;
     height: 30px;
     font-size: 10px;

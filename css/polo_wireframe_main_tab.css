@@ -69,10 +69,14 @@ div.cntWrap>div.content.cnt01>div.header>div.btn{
 }
 div.cntWrap>div.content.cnt01>div.section{
     width: 100%;
+    float: none;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView{
     width: calc((100vw - 700px) / 2 + 100%);
     min-width: calc((100vw - 90vw) / 2 + 100%);
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
+    height: 270px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
     height: 260px;
@@ -80,6 +84,10 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>d
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts{
     padding-left: 0;
     text-align: center;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image:hover+div.texts{
+    height: 80px;
+    margin-top: -80px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>h3{
     font-size: 20px;
@@ -91,6 +99,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>d
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn{
     font-size: 60px;
+    right: 60px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar{
     display: none;
@@ -200,6 +209,13 @@ div.ftrWrap>div.footer>div.ftrTop>ul.nav>li{
 }
 div.ftrWrap>div.footer>div.ftrBtm{
     text-align: center;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.form{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.sns{
+    float: none;
+    margin: 0 auto;
 }
 
 /* 라이트박스 */

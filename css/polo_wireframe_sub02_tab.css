@@ -49,8 +49,19 @@ div.cntWrap>div.content.cnt01>div.section>div.artView{
     width: calc((100vw - 700px) / 2 + 100%);
     min-width: calc((100vw - 90vw) / 2 + 100%);
 }
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
+    height: 250px;
+}
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
     height: 240px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>h3{
+    font-size: 15px;
+    line-height: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>h5{
+    font-size: 12px;
+    line-height: 20px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar{
     margin-top: 30px;
@@ -181,8 +192,14 @@ div.ftrWrap>div.footer>div.ftrTop>ul.nav{
 }
 div.ftrWrap>div.footer>div.ftrTop>ul.nav>li{
     margin: 0px 10px;
-
 }
 div.ftrWrap>div.footer>div.ftrBtm{
     text-align: center;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.form{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.sns{
+    float: none;
+    margin: 0 auto;
 }

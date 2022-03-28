@@ -84,6 +84,7 @@ div.cntWrap>div.content.cnt02>div.cntLeft{
     width: calc((100vw - 700px) / 2 + 100%);
     min-width: calc((100vw - 90vw) / 2 + 100%);
     margin-left: calc((100vw - 700px) / -2);
+    float: none;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.header{
     float: none;
@@ -97,6 +98,7 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.header>h2{
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section{
     width: 100%;
+    float: none;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image{
     height: 240px;
@@ -114,6 +116,7 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar{
 /* 컨텐츠03 */
 div.cntWrap>div.content.cnt03>div.cntLeft{
     display: none;
+    float: none;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.header{
     float: none;
@@ -129,9 +132,11 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.header>h2{
 div.cntWrap>div.content.cnt03>div.cntRight{
     width: calc((100vw - 700px) / 2 + 100%);
     min-width: calc((100vw - 90vw) / 2 + 100%);
+    float: none;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section{
     width: 100%;
+    float: none;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.image{
     height: 240px;
@@ -149,6 +154,7 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bar{
 /* 컨텐츠04 */
 div.cntWrap>div.content.cnt04>div.cntRight{
     display: none;
+    float: none;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft{
     width: calc((100vw - 700px) / 2 + 100%);
@@ -167,6 +173,7 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.header>h2{
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section{
     width: 100%;
+    float: none;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.image{
     height: 240px;
@@ -212,4 +219,11 @@ div.ftrWrap>div.footer>div.ftrTop>ul.nav>li{
 }
 div.ftrWrap>div.footer>div.ftrBtm{
     text-align: center;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.form{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.sns{
+    float: none;
+    margin: 0 auto;
 }

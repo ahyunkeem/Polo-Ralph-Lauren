@@ -68,14 +68,15 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.header>h2{
 }
 div.cntWrap>div.content.cnt02>div.cntLeft{
     margin-left: 0px;
+    width: 100%;
+    min-width: 100%;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.header{
     width: 100%;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView{
-    width: 175%;
-    margin-left: 0px;
-    margin-left: -78%;
+    width: 185%;
+    margin-left: -85%;
 }
 
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image{

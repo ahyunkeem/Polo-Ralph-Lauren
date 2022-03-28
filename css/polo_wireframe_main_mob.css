@@ -37,12 +37,17 @@ div.cntWrap>div.content.cnt01>div.header>h3{
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
     width: 160%;
+    height: 170px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
     height: 160px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>h3{
     font-size: 12px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image:hover+div.texts{
+    height: 60px;
+    margin-top: -60px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn{
     right: 0;
@@ -103,7 +108,7 @@ div.cntWrap>div.content.cnt03>div.header>p{
 div.cntWrap>div.content.cnt03>div.header>div.btn{
     margin-top: 20px;
     line-height: 30px;
-    width: calc(100% / 4 - 20px);
+    width: calc(100% / 3 - 20px);
     font-size: 5px;
 }
 div.cntWrap>div.content.cnt03>div.header>h1{

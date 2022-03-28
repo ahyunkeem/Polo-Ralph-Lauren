@@ -47,6 +47,7 @@ div.hdrWrap>div.header>h1{
     float: left;
     color: #02073d;
     font-family: 'bask';
+    cursor: pointer;
 }
 div.hdrWrap>div.header>ul.nav{
     float: right;
@@ -226,29 +227,21 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
     margin: 0px 10px;
     float: left;
 }
-div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{}
-div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i1{
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i1{
     background-image: url(../image/sub1pc_content1_article1.jpg);
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i2{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../image/sub1pc_content1_article2.jpg);
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i3{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../image/sub1pc_content1_article3.jpg);
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i4{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../image/sub1pc_content1_article4.jpg);
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts{}
@@ -351,29 +344,21 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article{
     margin: 0px 10px;
     float: right;
 }
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image{}
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image.i1{
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image.i1{
     background-image: url(../image/sub1pc_content2_article1.jpg);
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image.i2{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../image/sub1pc_content2_article2.jpg);
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image.i3{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../image/sub1pc_content2_article3.jpg);
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image.i4{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../image/sub1pc_content2_article4.jpg);
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.texts{}
@@ -507,29 +492,21 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article{
     margin: 0px 10px;
     float: left;
 }
-div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.image{}
-div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.image.i1{
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.image{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.image.i1{
     background-image: url(../image/sub1pc_content3_article1.jpg);
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.image.i2{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../image/sub1pc_content3_article2.jpg);
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.image.i3{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../image/sub1pc_content3_article3.jpg);
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.image.i4{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../image/sub1pc_content3_article4.jpg);
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.texts{}
@@ -631,29 +608,21 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article{
     margin: 0px 10px;
     float: right;
 }
-div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.image{}
-div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.image.i1{
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.image{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.image.i1{
     background-image: url(../image/sub1pc_content4_article1.jpg);
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.image.i2{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../image/sub1pc_content4_article2.jpg);
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.image.i3{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../image/sub1pc_content4_article3.jpg);
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.image.i4{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: url(../image/sub1pc_content4_article4.jpg);
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.texts{}
@@ -763,9 +732,45 @@ div.ftrWrap>div.footer>div.ftrTop>ul.nav>li{
 div.ftrWrap>div.footer>div.ftrBtm{
     line-height: 40px;
 }
+div.ftrWrap>div.footer>div.ftrBtm::after{
+    display: block;
+    content: '';
+    clear: both;
+}
 div.ftrWrap>div.footer>div.ftrBtm>div.sns{
     font-size: 20px;
+    float: left;
+    width: 50%;
 }
 div.ftrWrap>div.footer>div.ftrBtm>div.sns>i{
     cursor: pointer;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.form{
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-family: 'arial';
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.form>p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.form>input{
+    background-color: #041e3a;
+    color: #fff;
+    width: calc(100% / 6 * 3);
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    font-size: 10px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.form>button{
+    background-color: #041e3a;
+    color: #fff;
+    margin-left: -5px;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    font-size: 10px;
 }
