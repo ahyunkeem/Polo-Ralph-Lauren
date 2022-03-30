@@ -1,3 +1,71 @@
+/* 메뉴 tab */
+div.menuWrap{
+    display: block;
+    width: 0%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 51;
+    transition: width 0.5s;
+}
+div.menuWrap>div.menu{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+    padding: 0px 20px;
+}
+div.menuWrap>div.menu::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+div.menuWrap>div.menu>h1{
+    font-size: 55px;
+    line-height: 60px;
+    text-transform: uppercase;
+    float: left;
+    color: #02073d;
+    font-family: 'bask';
+}
+div.menuWrap>div.menu>div.btn{
+    font-size: 35px;
+    line-height: 60px;
+    float: right;
+}
+div.menuWrap>div.menu>ul.mnTop{
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+}
+div.menuWrap>div.menu>ul.mnTop>li.show+li{
+    height: 200px;
+    transition: height 0.5s;
+}
+div.menuWrap>div.menu>ul.mnTop>li:nth-child(odd){
+    font-size: 40px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+div.menuWrap>div.menu>ul.mnTop>li:nth-child(even){
+    height: 0px;
+    overflow: hidden;
+}
+div.menuWrap>div.menu>ul.mnTop>li>h4{
+    font-size: 25px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+div.menuWrap>div.menu>ul.mnBtm{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+div.menuWrap>div.menu>ul.mnBtm>li{
+    font-size: 25px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
 /* 헤더 */
 div.hdrWrap{
     position: inherit;
@@ -142,12 +210,12 @@ div.cntWrap>div.content.cnt02>div.section{
     margin-top: 0px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView{
-    width: auto;
-    min-width: auto;
+    width: 100%;
+    min-width: 100%;
     margin-left: 0;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup{
-    width: auto;
+    width: 100%;
     margin-left: 0px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article{

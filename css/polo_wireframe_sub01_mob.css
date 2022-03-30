@@ -75,10 +75,14 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.header{
     width: 100%;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView{
-    width: 185%;
-    margin-left: -85%;
+    width: 175%;
+    margin-left: -75%;
 }
-
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section{
+    width: calc((100vw - 700px) / 2 + 100%);
+    min-width: calc((100vw - 90vw) / 2 + 100%);
+    margin-left: -20px;
+}
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image{
     height: 160px;
 }
@@ -101,6 +105,10 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.more{
 }
 
 /* 컨텐츠03 */
+div.cntWrap>div.content.cnt03>div.cntRight{
+    width: 100%;
+    min-width: 100%;
+}
 div.cntWrap>div.content.cnt03>div.cntRight>div.header>h2{
     font-size: 20px;
     line-height: 20px;
@@ -108,6 +116,10 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.header>h2{
 div.cntWrap>div.content.cnt03>div.cntRight>div.header{
     margin-left: 0px;
     width: 100%;
+}
+div.cntWrap>div.content.cnt03>div.cntRight>div.section{
+    width: calc((100vw - 700px) / 2 + 100%);
+    min-width: calc((100vw - 90vw) / 2 + 100%);
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView{
     width: 175%;
@@ -126,6 +138,7 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bar>div.per{
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.more{
     text-align: right;
     font-size: 10px;
+    margin-right: 20px;
 }
 
 /* 컨텐츠04 */
@@ -135,13 +148,20 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.header>h2{
 }
 div.cntWrap>div.content.cnt04>div.cntLeft{
     margin-left: 0px;
+    width: 100%;
+    min-width: 100%;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.header{
     width: 100%;
 }
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section{
+    width: calc((100vw - 700px) / 2 + 100%);
+    min-width: calc((100vw - 90vw) / 2 + 100%);
+    margin-left: -20px;
+}
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView{
     width: 175%;
-    margin-left: -78%;
+    margin-left: -75%;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.image{
     height: 160px;

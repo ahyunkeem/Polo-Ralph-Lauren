@@ -56,7 +56,7 @@ div.cntWrap>div.content.cnt02>div.header>h2{
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup{
     width: 175%;
-    margin-left: -80%;
+    margin-left: -75%;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image{
     height: 160px;
@@ -65,7 +65,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>d
     height: 200px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView{
-    margin-left: 0px;
+    margin-left: -20px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.btns>div.btn{
     left: 0;

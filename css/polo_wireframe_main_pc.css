@@ -20,6 +20,12 @@ body{
     width: 100vw;
     overflow-x: hidden;
 }
+
+/* 메뉴 tab */
+div.menuWrap{
+    display: none;
+}
+
 /* 헤더 */
 div.hdrWrap{ 
     height: 60px;
