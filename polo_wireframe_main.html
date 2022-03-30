@@ -20,6 +20,22 @@
             var gr = $('.artGroup');
             var artLen = gr.children().length;
 
+            // 메뉴 tab
+            $('.header li').last().click(function(){
+                mn.css('width','100%');
+            });
+            $('.btn').eq(0).click(function(){
+                mn.css('width','0%');
+            });
+            acoli.even().click(function(){
+                acoli.removeClass('show');
+                $(this).addClass('show');
+                acoli.find('span').text(' +')
+                $(this).find('span').text(' -')
+            });
+            // +,-바꾸는거 하기
+
+
             // btn.eq(0).click(function(){
             //     i++;
             //     if(i>3){
@@ -33,20 +49,6 @@
             //     i--;
             //     gr.css('margin-left',i*-300+'%');
             // });
-
-            // 메뉴 tab
-            $('.header li').last().click(function(){
-                mn.css('width','100%');
-            });
-            $('.btn').eq(0).click(function(){
-                mn.css('width','0%');
-            });
-            acoli.even().click(function(){
-                acoli.removeClass('show');
-                $(this).addClass('show');
-            });
-            // +,-바꾸는거 하기
-
         });
     </script>
 </head>
@@ -57,7 +59,7 @@
             <h1>polo ralph lauren</h1>
             <div class="btn"><i class="xi-close"></i></div>
             <ul class="mnTop">
-                <li class="show">new arrival<span> +</span></li>
+                <li class="show">new arrival<span> -</span></li>
                 <li>
                     <h4>best sellers</h4>
                     <h4>women</h4>

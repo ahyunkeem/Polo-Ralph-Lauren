@@ -1,3 +1,26 @@
+/* 메뉴 tab */
+div.menuWrap>div.menu>h1{
+    font-size: 25px;
+}
+div.menuWrap>div.menu>div.btn{
+    font-size: 20px;
+}
+div.menuWrap>div.menu>ul.mnTop>li:nth-child(odd){
+    font-size: 25px;
+    line-height: 60px;
+}
+div.menuWrap>div.menu>ul.mnTop>li>h4{
+    font-size: 18px;
+    line-height: 30px;
+}
+div.menuWrap>div.menu>ul.mnTop>li.show+li{
+    height: 120px;
+}
+div.menuWrap>div.menu>ul.mnBtm>li{
+    font-size: 18px;
+    line-height: 30px;
+}
+
 /* 헤더 */
 div.hdrWrap{
     height: 40px;

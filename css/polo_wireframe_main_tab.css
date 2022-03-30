@@ -4,8 +4,11 @@ div.menuWrap{
     width: 0%;
     overflow: hidden;
     position: fixed;
+    right: 0;
     z-index: 51;
     transition: width 0.5s;
+    /* opacity: 1; */
+    /* 찌그러졌다 펼쳐지는 오류 오파시티로 조정하기 */
 }
 div.menuWrap>div.menu{
     width: 100%;
@@ -13,6 +16,8 @@ div.menuWrap>div.menu{
     background-color: #fff;
     position: relative;
     padding: 0px 20px;
+    /* opacity: 0;
+    transition: opacity 0.5s; */
 }
 div.menuWrap>div.menu::after{
     display: block;
@@ -31,6 +36,7 @@ div.menuWrap>div.menu>div.btn{
     font-size: 35px;
     line-height: 60px;
     float: right;
+    cursor: pointer;
 }
 div.menuWrap>div.menu>ul.mnTop{
     float: left;
@@ -45,6 +51,7 @@ div.menuWrap>div.menu>ul.mnTop>li:nth-child(odd){
     font-size: 40px;
     line-height: 80px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 div.menuWrap>div.menu>ul.mnTop>li:nth-child(even){
     height: 0px;
@@ -54,6 +61,7 @@ div.menuWrap>div.menu>ul.mnTop>li>h4{
     font-size: 25px;
     line-height: 50px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 div.menuWrap>div.menu>ul.mnBtm{
     position: absolute;
@@ -64,6 +72,7 @@ div.menuWrap>div.menu>ul.mnBtm>li{
     font-size: 25px;
     line-height: 50px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 /* 헤더 */
