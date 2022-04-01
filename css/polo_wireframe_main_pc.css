@@ -199,7 +199,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artView{
     overflow: hidden;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
-    width: 115%;
+    width: 174%;
     height: 490px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup::after{
@@ -208,7 +208,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup::after{
     clear: both;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
-    width: calc(100% / 4 - 20px);
+    width: calc(100% / 6 - 20px);
     margin: 0px 10px;
     float: left;
 }
@@ -233,6 +233,12 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>d
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i4{
     background-image: url('../image/mainpc_content1_article4.jpg');
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i5{
+    background-image: url('../image/mainpc_content1_article5.jpg');
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i6{
+    background-image: url('../image/mainpc_content1_article6.jpg');
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image:hover+div.texts{
     height: 120px;
@@ -283,6 +289,15 @@ div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>div.per{
     width: 30%;
     height: 5px;
     background-color: #000;
+    position: relative;
+    transition: width 0.5s;
+}
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>div.perBtm{
+    width: 100%;
+    height: 5px;
+    box-shadow: 3px 3px 3px #ccc;
+    position: absolute;
+    bottom: 0;
 }
 
 
@@ -348,12 +363,11 @@ div.cntWrap>div.content.cnt02>div.section>div.artView::after{
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup{
     width: 300%;
-    margin-left: -200%;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article{
     width: calc(100% / 3 - 20px);
     margin: 0px 10px;
-    float: right;
+    float: left;
 }
 /* 컨텐츠02 images */
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.images{
@@ -435,6 +449,15 @@ div.cntWrap>div.content.cnt02>div.section>div.btns>div.bar>div.per{
     height: 5px;
     background-color: #000;
     float: right;
+    transition: width 0.5s;
+    position: relative;
+}
+div.cntWrap>div.content.cnt02>div.section>div.btns>div.bar>div.perBtm{
+    width: 100%;
+    height: 5px;
+    box-shadow: 3px 3px 3px #ccc;
+    position: absolute;
+    bottom: 0;
 }
 
 
@@ -461,6 +484,8 @@ div.cntWrap>div.content.cnt03>div.header>p{
     height: 40px;
     font-size: 16px;
     font-family: 'arial';
+    overflow: hidden;;
+    padding: 0px calc(100% / 12);
 }
 div.cntWrap>div.content.cnt03>div.header>div.btn{
     width: calc(100% / 12 * 1.8);

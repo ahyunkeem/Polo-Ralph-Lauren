@@ -6,9 +6,8 @@ div.menuWrap{
     position: fixed;
     right: 0;
     z-index: 51;
-    transition: width 0.5s;
-    /* opacity: 1; */
-    /* 찌그러졌다 펼쳐지는 오류 오파시티로 조정하기 */
+    transition: all 0.5s;
+    opacity: 0;
 }
 div.menuWrap>div.menu{
     width: 100%;
@@ -16,8 +15,6 @@ div.menuWrap>div.menu{
     background-color: #fff;
     position: relative;
     padding: 0px 20px;
-    /* opacity: 0;
-    transition: opacity 0.5s; */
 }
 div.menuWrap>div.menu::after{
     display: block;
@@ -25,7 +22,7 @@ div.menuWrap>div.menu::after{
     clear: both;
 }
 div.menuWrap>div.menu>h1{
-    font-size: 55px;
+    font-size: 40px;
     line-height: 60px;
     text-transform: uppercase;
     float: left;
@@ -33,7 +30,7 @@ div.menuWrap>div.menu>h1{
     font-family: 'bask';
 }
 div.menuWrap>div.menu>div.btn{
-    font-size: 35px;
+    font-size: 30px;
     line-height: 60px;
     float: right;
     cursor: pointer;
@@ -82,6 +79,9 @@ div.hdrWrap{
 div.hdrWrap>div.header{
     width: 90%;
     max-width: 700px;
+}
+div.hdrWrap>div.header>h1{
+    font-size: 40px;
 }
 div.hdrWrap>div.header>ul.nav>li{
     display: none;
@@ -246,8 +246,14 @@ div.cntWrap>div.content.cnt02>div.section>div.btns{
 }
 
 /* 컨텐츠03 */
+div.cntWrap>div.content.cnt03>div.header>h1{
+    font-size: 40px;
+}
+div.cntWrap>div.content.cnt03>div.header>h3{
+    line-height: 20px;
+}
 div.cntWrap>div.content.cnt03>div.header>p{
-    font-size: 14px;
+    font-size: 15px;
 }
 div.cntWrap>div.content.cnt03>div.header>div.btn{
     width: calc(100% / 8 * 1.5);
@@ -276,13 +282,15 @@ div.ftrWrap>div.footer>div.ftrTop>ul.nav::after{
 }
 div.ftrWrap>div.footer>div.ftrTop>ul.nav{
     float: none;
-    font-size: 10px;
-    width: calc(100% / 8 * 3.1);
+    font-size: 13px;
+    width: calc(100% / 8 * 6);
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 div.ftrWrap>div.footer>div.ftrTop>ul.nav>li{
     margin: 0px 10px;
-
+    float: none;
 }
 div.ftrWrap>div.footer>div.ftrBtm{
     text-align: center;
@@ -294,6 +302,9 @@ div.ftrWrap>div.footer>div.ftrBtm>div.sns{
     float: none;
     margin: 0 auto;
 }
+div.ftrWrap>div.footer>div.ftrTop>ul.nav::after{
+    display: none;
+}
 
 /* 라이트박스 */
 div.lightBox>div.video{
@@ -301,4 +312,6 @@ div.lightBox>div.video{
 }
 div.lightBox>div.btn{
     right: 11%;
+    position: absolute;
+    top: 22%;
 }

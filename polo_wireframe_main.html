@@ -11,45 +11,8 @@
     <link rel="stylesheet" href="./css/polo_wireframe_main_tab.css" media="(max-width:1024px) and (min-width:0px)">
     <link rel="stylesheet" href="./css/polo_wireframe_main_mob.css" media="(max-width:420px) and (min-width:0px)">
     <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/polo_wireframe_main.js"></script>
     <script>
-        $(function(){
-            var i = 0;
-            var mn = $('.menuWrap');
-            var acoli = $('.mnTop li');
-            var btn = $('.btns>.btn');
-            var gr = $('.artGroup');
-            var artLen = gr.children().length;
-
-            // 메뉴 tab
-            $('.header li').last().click(function(){
-                mn.css('width','100%');
-            });
-            $('.btn').eq(0).click(function(){
-                mn.css('width','0%');
-            });
-            acoli.even().click(function(){
-                acoli.removeClass('show');
-                $(this).addClass('show');
-                acoli.find('span').text(' +')
-                $(this).find('span').text(' -')
-            });
-            // +,-바꾸는거 하기
-
-
-            // btn.eq(0).click(function(){
-            //     i++;
-            //     if(i>3){
-            //         i=0;
-            //     }
-            //     // i = i%artLen;
-            //     gr.css('margin-left',i*-23+'%');
-            // });
-
-            // btn.eq(1).click(function(){
-            //     i--;
-            //     gr.css('margin-left',i*-300+'%');
-            // });
-        });
     </script>
 </head>
 <body>
@@ -172,6 +135,20 @@
                                     <h5>men's fleece hoodie</h5>
                                 </div>
                             </div>
+                            <div class="article">
+                                <div class="image i5"></div>
+                                <div class="texts">
+                                    <h3>women</h3>
+                                    <h5>women's fleece hoodie</h5>
+                                </div>
+                            </div>
+                            <div class="article">
+                                <div class="image i6"></div>
+                                <div class="texts">
+                                    <h3>men</h3>
+                                    <h5>men's fleece hoodie</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- 컨텐츠01 버튼 -->
@@ -182,6 +159,7 @@
                         <div class="bar">
                            <h4>click the side</h4>
                            <div class="per"></div>
+                           <div class="perBtm"></div>
                        </div>
                    </div>
                 </div>
@@ -194,7 +172,8 @@
              <h2>an occasion to celebrate <br> for the spring
              </h2>
              <div class="video">
-                 <video src="./video/SITED_SP22_LAUREN_D1_07_HERO_COLORED_v2a_H264.mp4" controls></video>
+                <video src="./video/SITED_SP22_LAUREN_D1_07_HERO_COLORED_v2a_H264.mp4" autoplay muted loop></video>
+                 <!-- <video src="./video/SITED_SP22_LAUREN_D1_07_HERO_COLORED_v2a_H264.mp4" controls></video> -->
             </div>
          </div>
      </div>
@@ -248,6 +227,7 @@
                   <div class="bar">
                      <h4>click the side</h4>
                      <div class="per"></div>
+                     <div class="perBtm"></div>
                  </div>
              </div>
           </div>
@@ -259,7 +239,7 @@
          <div class="content cnt03">
              <!-- 컨텐츠03 헤더 -->
              <div class="header">
-                 <p>The Pink Pony campaign, launched in 2000, is Ralph Lauren's global cancer eradication project. <br> Twenty-five percent of the sales of Pink Pony collections worldwide are donated to cancer-related international charities.</p>
+                 <p>The Pink Pony campaign, launched in 2000, is Ralph Lauren's global cancer eradication project. Twenty-five percent of the sales of Pink Pony collections worldwide are donated to cancer-related international charities.</p>
                  <div class="btn"><label for="video">
                     <span>감상하기</span>
                     <i class="xi-angle-right"></i>
@@ -370,7 +350,7 @@
         <div class="video">
           <video src="./video/09302021_pinkpony_hero_lp_1440x720.mp4" muted autoplay></video>
         </div>
-        <div class="btn"><label for="video">x</label></div>
+        <div class="btn"><label for="video"><i class="xi-compress"></i></label></div>
       </div>
 </body>
 </html>
