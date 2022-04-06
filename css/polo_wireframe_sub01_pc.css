@@ -20,6 +20,12 @@ body{
     width: 100vw;
     overflow-x: hidden;
 }
+
+/* 메뉴 tab */
+div.menuWrap{
+    display: none;
+}
+
 /* 헤더 */
 div.hdrWrap{ 
     height: 60px;
@@ -264,9 +270,14 @@ div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn{
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn>i{
     text-shadow: 1px 1px 4px #000;
+    opacity: 40%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn>i:hover{
+    opacity: 90%;
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar{
     margin-top: 40px;
+    position: relative;
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>h4{
     font-size: 20px;
@@ -274,9 +285,17 @@ div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>h4{
     font-family: 'arial';
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>div.per{
-    width: 30%;
     height: 5px;
+    width: 30%;
     background-color: #000;
+    transition: width 0.5s;
+}
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>div.perBtm{
+    width: 100%;
+    height: 5px;
+    box-shadow: 3px 3px 3px #ccc;
+    position: absolute;
+    bottom: 0;
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.more{
     font-size: 12px;
@@ -381,10 +400,16 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.btn{
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.btn>i{
     text-shadow: 1px 1px 4px #000;
+    opacity: 40%;
+}
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.btn>i:hover{
+    opacity: 90%;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar{
     margin-top: 40px;
-    width: 100%;
+    width: 70%;
+    position: relative;
+    margin-left: auto;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar::after{
     display: block;
@@ -400,8 +425,16 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar>h4{
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar>div.per{
     width: 30%;
     height: 5px;
-    float: right;
     background-color: #000;
+    float: right;
+    transition: width 0.5s;
+}
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar>div.perBtm{
+    width: 100%;
+    height: 5px;
+    box-shadow: 3px 3px 3px #ccc;
+    position: absolute;
+    bottom: 0;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.more{
     font-size: 12px;
@@ -529,6 +562,10 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.btn{
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.btn>i{
     text-shadow: 1px 1px 4px #000;
+    opacity: 40%;
+}
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.btn>i:hover{
+    opacity: 90%;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bar{
     margin-top: 40px;
@@ -542,6 +579,15 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bar>div.per{
     width: 30%;
     height: 5px;
     background-color: #000;
+    float: right;
+    transition: width 0.5s;
+}
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bar>div.perBtm{
+    width: 100%;
+    height: 5px;
+    box-shadow: 3px 3px 3px #ccc;
+    position: absolute;
+    bottom: 0;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.more{
     font-size: 12px;

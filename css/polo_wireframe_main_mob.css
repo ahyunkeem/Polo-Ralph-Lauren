@@ -52,7 +52,7 @@ div.mainWrap>div.main>div.btn{
     margin-top: 20px;
     line-height: 30px;
     width: calc(100% / 3);
-    font-size: 11px;
+    font-size: 10px;
 }
 
 /* 공통 */
@@ -98,6 +98,14 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>d
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn{
     display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.more{
+    display: block;
+    font-size: 10px;
+    line-height: 40px;
+    text-align: right;
+    cursor: pointer;
+    font-family: 'arial';
 }
 
 /* 배너 */
@@ -155,7 +163,7 @@ div.cntWrap>div.content.cnt03>div.header>div.btn{
     margin-top: 20px;
     line-height: 30px;
     width: calc(100% / 2.5);
-    font-size: 5px;
+    font-size: 10px;
 }
 div.cntWrap>div.content.cnt03>div.header>h1{
     font-size: 19px;

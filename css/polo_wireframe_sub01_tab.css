@@ -1,3 +1,77 @@
+/* 메뉴 tab */
+div.menuWrap{
+    display: block;
+    width: 0%;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    z-index: 51;
+    transition: all 0.5s;
+    opacity: 0;
+}
+div.menuWrap>div.menu{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+    padding: 0px 20px;
+}
+div.menuWrap>div.menu::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+div.menuWrap>div.menu>h1{
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    float: left;
+    color: #02073d;
+    font-family: 'bask';
+}
+div.menuWrap>div.menu>div.btn{
+    font-size: 30px;
+    line-height: 60px;
+    float: right;
+    cursor: pointer;
+}
+div.menuWrap>div.menu>ul.mnTop{
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+}
+div.menuWrap>div.menu>ul.mnTop>li.show+li{
+    height: 200px;
+    transition: height 0.5s;
+}
+div.menuWrap>div.menu>ul.mnTop>li:nth-child(odd){
+    font-size: 40px;
+    line-height: 80px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+div.menuWrap>div.menu>ul.mnTop>li:nth-child(even){
+    height: 0px;
+    overflow: hidden;
+}
+div.menuWrap>div.menu>ul.mnTop>li>h4{
+    font-size: 25px;
+    line-height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+div.menuWrap>div.menu>ul.mnBtm{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+div.menuWrap>div.menu>ul.mnBtm>li{
+    font-size: 25px;
+    line-height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
 /* 헤더 */
 div.hdrWrap{
     position: inherit;
@@ -191,7 +265,7 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bar{
 
 /* 푸터 */
 div.ftrWrap{
-    margin-top: 120px;
+    margin-top: 200px;
 }
 div.ftrWrap>div.footer{
     width: 90%;
@@ -209,13 +283,15 @@ div.ftrWrap>div.footer>div.ftrTop>ul.nav::after{
 }
 div.ftrWrap>div.footer>div.ftrTop>ul.nav{
     float: none;
-    font-size: 10px;
-    width: calc(100% / 8 * 3.1);
+    font-size: 13px;
+    width: calc(100% / 8 * 6);
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 div.ftrWrap>div.footer>div.ftrTop>ul.nav>li{
     margin: 0px 10px;
-
+    float: none;
 }
 div.ftrWrap>div.footer>div.ftrBtm{
     text-align: center;
@@ -226,4 +302,7 @@ div.ftrWrap>div.footer>div.ftrBtm>div.form{
 div.ftrWrap>div.footer>div.ftrBtm>div.sns{
     float: none;
     margin: 0 auto;
+}
+div.ftrWrap>div.footer>div.ftrTop>ul.nav::after{
+    display: none;
 }
