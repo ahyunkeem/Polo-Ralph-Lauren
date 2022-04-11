@@ -20,6 +20,12 @@ body{
     width: 100vw;
     overflow-x: hidden;
 }
+
+/* 메뉴 tab */
+div.menuWrap{
+    display: none;
+}
+
 /* 헤더 */
 div.hdrWrap{ 
     height: 60px;
@@ -182,7 +188,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artView{
     overflow: hidden;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
-    width: 120%;
+    width: 130%;
     height: 290px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup::after{
@@ -191,13 +197,12 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup::after{
     clear: both;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
-    width: calc(100% / 5 - 20px);
+    width: calc(100% / 6 - 20px);
     margin: 0px 10px;
     float: left;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article:hover{
     box-shadow: 1px 1px 10px black;
-
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
     height: 280px;
@@ -220,6 +225,9 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>d
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i5{
     background-image: url('../image/sub2pc_content1_article5.jpg');
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i6{
+    background-image: url('../image/sub2pc_content1_article6.jpg');
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image:hover+div.texts{
     height: 80px;
@@ -250,26 +258,34 @@ div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn{
     color: #fff;
     position: absolute;
     margin: auto;
-    top: 0;
+    top: 40px;
     bottom: 0;
     right: -80px;
     cursor: pointer;
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn>i{
     text-shadow: 1px 1px 4px #000;
+    opacity: 40%;
 }
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar{
-    margin-top: 80px;
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn>i:hover{
+    opacity: 90%;
 }
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>h4{
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars{
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars>h4{
     font-size: 20px;
     line-height: 40px;
     font-family: 'arial';
 }
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>div.per{
-    width: 30%;
-    height: 5px;
-    background-color: #000;
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars>div.bar{
+    height: 2px;
+    background-color: #333;
+    width: calc((100vw - 1080px) / 2 + 100%);
+    min-width: calc((100vw - 80vw) / 2 + 100%);
+}
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.more{
+    display: none;
 }
 
 /* 컨텐츠02 */
@@ -298,8 +314,8 @@ div.cntWrap>div.content.cnt02>div.section>div.artView{
     margin-left: calc((100vw - 1080px) / -2);
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup{
-    width: 110%;
-    margin-left: -10%;
+    width: 164%;
+    margin-left: -64%;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup::after{
     display: block;
@@ -307,7 +323,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup::after{
     clear: both;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article{
-    width: calc(100% / 4 - 20px);
+    width: calc(100% / 6 - 20px);
     margin: 0px 10px;
     float: right;
 }
@@ -332,6 +348,12 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>d
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image.i4{
     background-image: url('../image/sub2pc_content2_article4.jpg');
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image.i5{
+    background-image: url('../image/sub2pc_content2_article5.jpg');
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image.i6{
+    background-image: url('../image/sub2pc_content2_article6.jpg');
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.texts{
     margin-top: 20px;
@@ -377,27 +399,27 @@ div.cntWrap>div.content.cnt02>div.section>div.btns>div.btn{
 }
 div.cntWrap>div.content.cnt02>div.section>div.btns>div.btn>i{
     text-shadow: 1px 1px 4px #000;
+    opacity: 40%;
 }
-div.cntWrap>div.content.cnt02>div.section>div.btns>div.bar{
+div.cntWrap>div.content.cnt02>div.section>div.btns>div.btn>i:hover{
+    opacity: 90%;
+}
+div.cntWrap>div.content.cnt02>div.section>div.btns>div.bars{
     margin-top: 40px;
-    width: 100%;
 }
-div.cntWrap>div.content.cnt02>div.section>div.btns>div.bar::after{
-    display: block;
-    content: '';
-    clear: both;
-}
-div.cntWrap>div.content.cnt02>div.section>div.btns>div.bar>h4{
+div.cntWrap>div.content.cnt02>div.section>div.btns>div.bars>h4{
     font-size: 20px;
     line-height: 40px;
     text-align: right;
     font-family: 'arial';
 }
-div.cntWrap>div.content.cnt02>div.section>div.btns>div.bar>div.per{
-    width: 30%;
-    height: 5px;
-    background-color: #000;
-    float: right;
+div.cntWrap>div.content.cnt02>div.section>div.btns>div.bars>div.bar{
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    width: calc((100vw - 1080px) / 2 + 100%);
+    min-width: calc((100vw - 80vw) / 2 + 100%);
+    margin-left: calc((100vw - 1080px) / -2);
 }
 div.cntWrap>div.content.cnt02>div.section>div.btns>div.more{
     font-size: 12px;
@@ -432,7 +454,7 @@ div.cntWrap>div.content.cnt03>div.section>div.artView{
     overflow: hidden;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup{
-    width: 110%;
+    width: 164%;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup::after{
     display: block;
@@ -440,7 +462,7 @@ div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup::after{
     clear: both;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article{
-    width: calc(100% / 4 - 20px);
+    width: calc(100% / 6 - 20px);
     margin: 0px 10px;
     float: left;
 }
@@ -465,6 +487,12 @@ div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>d
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.image.i4{
     background-image: url('../image/sub2pc_content3_article4.jpg');
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.image.i5{
+    background-image: url('../image/sub2pc_content3_article5.jpg');
+}
+div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.image.i6{
+    background-image: url('../image/sub2pc_content3_article6.jpg');
 }
 div.cntWrap>div.content.cnt03>div.section>div.artView>div.artGroup>div.article>div.texts{
     margin-top: 20px;
@@ -510,19 +538,24 @@ div.cntWrap>div.content.cnt03>div.section>div.btns>div.btn{
 }
 div.cntWrap>div.content.cnt03>div.section>div.btns>div.btn>i{
     text-shadow: 1px 1px 4px #000;
+    opacity: 40%;
 }
-div.cntWrap>div.content.cnt03>div.section>div.btns>div.bar{
+div.cntWrap>div.content.cnt03>div.section>div.btns>div.btn>i:hover{
+    opacity: 90%;
+}
+div.cntWrap>div.content.cnt03>div.section>div.btns>div.bars{
     margin-top: 40px;
 }
-div.cntWrap>div.content.cnt03>div.section>div.btns>div.bar>h4{
+div.cntWrap>div.content.cnt03>div.section>div.btns>div.bars>h4{
     font-size: 20px;
     line-height: 40px;
     font-family: 'arial';
 }
-div.cntWrap>div.content.cnt03>div.section>div.btns>div.bar>div.per{
-    width: 30%;
-    height: 5px;
-    background-color: #000;
+div.cntWrap>div.content.cnt03>div.section>div.btns>div.bars>div.bar{
+    height: 2px;
+    background-color: #333;
+    width: calc((100vw - 1080px) / 2 + 100%);
+    min-width: calc((100vw - 80vw) / 2 + 100%);
 }
 div.cntWrap>div.content.cnt03>div.section>div.btns>div.more{
     font-size: 12px;

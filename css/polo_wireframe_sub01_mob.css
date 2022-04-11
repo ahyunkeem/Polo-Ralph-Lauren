@@ -34,10 +34,10 @@ div.hdrWrap>div.header{
     line-height: 40px;
 }
 div.hdrWrap>div.header>h1{
-    font-size: 25px;
+    font-size: 19px;
 }
 div.hdrWrap>div.header>ul.nav>li:nth-child(4){
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* 메인 */
@@ -54,15 +54,23 @@ div.mainWrap>div.main>p{
 
 /* 컨텐츠 공통 */
 div.cntWrap>div.content div.section>div.artView div.article>div.texts>h3{
-    font-size: 12px;
+    font-size: 10px;
 }
 div.cntWrap>div.content div.section>div.artView div.article>div.texts>h5{
-    font-size: 12px;
+    font-size: 10px;
     padding-top: 0px;
 }
 div.cntWrap>div.content div.section>div.artView div.article>div.texts>div.swatch{
-    font-size: 12px;
+    font-size: 10px;
     padding-top: 0px;
+    margin: 0 2px;
+    text-align: center;
+}
+div.cntWrap>div.content div.section>div.artView div.article>div.texts{
+    margin-top: 0;
+}
+div.cntWrap>div.content div.section{
+    margin-top: 0;
 }
 
 /* 컨텐츠01 */
@@ -70,18 +78,27 @@ div.cntWrap>div.content div.header>h2{
     font-size: 20px;
     line-height: 20px;
 }
+div.cntWrap>div.content.cnt01>div.section>div.artView{
+    width: 100%;
+    min-width: 100%;
+}
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
-    width: 175%;
+    width: 100%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
+    width: calc(100% / 2 - 20px);
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article:nth-child(4)~div.article{
+    display: none;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
-    height: 160px;
+    height: 120px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn{
-    right: 0px;
-    font-size: 40px;
-    top: 40px;
+    display: none;
 }
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar{
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars{
     display: none;
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.more{
@@ -103,29 +120,31 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.header{
     width: 100%;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView{
-    width: 175%;
-    margin-left: -75%;
+    width: 100%;
+    margin-left: 0;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section{
-    width: calc((100vw - 700px) / 2 + 100%);
-    min-width: calc((100vw - 90vw) / 2 + 100%);
-    margin-left: -20px;
+    width: 100%;
+    min-width: 100%;
+}
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article{
+    width: calc(100% / 2 - 20px);
+    margin-top: 20px;
+    float: left;
+}
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article:nth-child(4)~div.article{
+    display: none;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image{
-    height: 160px;
+    height: 120px;
 }
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image.i2{
-    background-image: url('../image/sub1mob_content2_article2.jpg');
-}
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image.i3{
-    background-image: url('../image/sub1mob_content2_article3.jpg');
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article:nth-child(2)>div.texts>div.swatch>span:nth-last-child(1){
+    display: none;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.btn{
-    font-size: 40px;
-    left: 0px;
-    top: 40px;
+    display: none;
 }
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar{
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bars{
     display: none;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.more{
@@ -146,21 +165,26 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.header{
     width: 100%;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section{
-    width: calc((100vw - 700px) / 2 + 100%);
-    min-width: calc((100vw - 90vw) / 2 + 100%);
+    width: 100%;
+    min-width: 100%;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView{
-    width: 175%;
+    width: 100%;
+}
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article{
+    width: calc(100% / 2 - 20px);
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article:nth-child(4)~div.article{
+    display: none;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.image{
-    height: 160px;
+    height: 120px;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.btn{
-    right: 0px;
-    font-size: 40px;
-    top: 40px;
+    display: none;
 }
-div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bar>div.per{
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bars{
     display: none;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.more{
@@ -168,6 +192,13 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.more{
     font-size: 10px;
     margin-right: 20px;
 }
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article:nth-child(2)>div.texts>div.swatch>span:last-child{
+    display: none;
+}
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article:nth-child(3)>div.texts>div.swatch>span:last-child{
+    display: none;
+}
+
 
 /* 컨텐츠04 */
 div.cntWrap>div.content.cnt04>div.cntLeft>div.header>h2{
@@ -183,23 +214,29 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.header{
     width: 100%;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section{
-    width: calc((100vw - 700px) / 2 + 100%);
-    min-width: calc((100vw - 90vw) / 2 + 100%);
-    margin-left: -20px;
+    width: 100%;
+    min-width: 100%;
+    margin-left: 0;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView{
-    width: 175%;
-    margin-left: -75%;
+    width: 100%;
+    margin-left: 0;
+}
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article{
+    width: calc(100% / 2 - 20px);
+    margin-top: 20px;
+    float: left;
+}
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article:nth-child(4)~div.article{
+    display: none;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.image{
-    height: 160px;
+    height: 120px;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.btn{
-    left: 0px;
-    font-size: 40px;
-    top: 40px;
+    display: none;
 }
-div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bar{
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bars{
     display: none;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.more{
@@ -232,5 +269,4 @@ div.ftrWrap>div.footer>div.ftrBtm{
 }
 div.ftrWrap>div.footer>div.ftrBtm>div.sns{
     font-size: 15px;
-}font-size: 15px;
 }

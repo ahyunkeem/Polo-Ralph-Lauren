@@ -99,6 +99,9 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>d
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn{
     display: none;
 }
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars{
+    display: none;
+}
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.more{
     display: block;
     font-size: 10px;

@@ -80,6 +80,9 @@ div.hdrWrap>div.header{
     width: 90%;
     max-width: 700px;
 }
+div.hdrWrap>div.header>h1{
+    font-size: 40px;
+}
 div.hdrWrap>div.header>ul.nav>li{
     display: none;
 }
@@ -139,11 +142,15 @@ div.cntWrap>div.content.cnt01>div.section>div.artView{
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
     height: 240px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>h4{
-    display: none;
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars{
+    margin-top: 20px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar{
-    margin-top: 30px;
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars>h4{
+    font-size: 18px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars>div.bar{
+    width: calc((100vw - 700px) / 2 + 100%);
+    min-width: calc((100vw - 90vw) / 2 + 100%);
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn{
     font-size: 60px;
@@ -180,8 +187,11 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>di
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.btn{
     font-size: 60px;
 }
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar>h4{
-    display: none;
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bars{
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bars>h4{
+    font-size: 18px;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar{
     margin-top: 20px;
@@ -218,10 +228,10 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>d
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.btn{
     font-size: 60px;
 }
-div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bar>h4{
-    display: none;
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bars>h4{
+    font-size: 18px;
 }
-div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bar{
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bars{
     margin-top: 20px;
 }
 
@@ -255,10 +265,10 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>di
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.btn{
     font-size: 60px;
 }
-div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bar>h4{
-    display: none;
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bars>h4{
+    font-size: 18px;
 }
-div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bar{
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bars{
     margin-top: 20px;
 }
 

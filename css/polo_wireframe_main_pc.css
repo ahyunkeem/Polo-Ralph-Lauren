@@ -200,7 +200,6 @@ div.cntWrap>div.content.cnt01>div.section>div.artView{
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
     width: 174%;
-    height: 490px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup::after{
     display: block;
@@ -281,16 +280,21 @@ div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn>i{
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn>i:hover{
     opacity: 90%;
 }
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar{
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars{
     margin-top: 40px;
-    position: relative;
 }
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>h4{
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars>h4{
     font-size: 20px;
     line-height: 40px;
     font-family: 'arial';
 }
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>div.per{
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars>div.bar{
+    width: calc((100vw - 1080px) / 2 + 100%);
+    min-width: calc((100vw - 80vw) / 2 + 100%);
+    height: 2px;
+    background-color: #333;
+}
+/* div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>div.per{
     height: 5px;
     background-color: #000;
     transition: width 0.5s;
@@ -301,7 +305,7 @@ div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>div.perBtm{
     box-shadow: 3px 3px 3px #ccc;
     position: absolute;
     bottom: 0;
-}
+} */
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.more{
     display: none;
 }
@@ -440,22 +444,23 @@ div.cntWrap>div.content.cnt02>div.section>div.btns>div.btn>i{
 div.cntWrap>div.content.cnt02>div.section>div.btns>div.btn>i:hover{
     opacity: 90%;
 }
-div.cntWrap>div.content.cnt02>div.section>div.btns>div.bar{
+div.cntWrap>div.content.cnt02>div.section>div.btns>div.bars{
     margin-top: 40px;
-    position: relative;
 }
-div.cntWrap>div.content.cnt02>div.section>div.btns>div.bar::after{
-    display: block;
-    content: '';
-    clear: both;
-}
-div.cntWrap>div.content.cnt02>div.section>div.btns>div.bar>h4{
+div.cntWrap>div.content.cnt02>div.section>div.btns>div.bars>h4{
     font-size: 20px;
     line-height: 40px;
     text-align: right;
     font-family: 'arial';
 }
-div.cntWrap>div.content.cnt02>div.section>div.btns>div.bar>div.per{
+div.cntWrap>div.content.cnt02>div.section>div.btns>div.bars>div.bar{
+    width: calc((100vw - 1080px) / 2 + 100%);
+    min-width: calc((100vw - 80vw) / 2 + 100%);
+    margin-left: calc((100vw - 1080px) / -2);
+    height: 2px;
+    background-color: #333;
+}
+/* div.cntWrap>div.content.cnt02>div.section>div.btns>div.bar>div.per{
     height: 5px;
     background-color: #000;
     float: right;
@@ -467,7 +472,7 @@ div.cntWrap>div.content.cnt02>div.section>div.btns>div.bar>div.perBtm{
     box-shadow: 3px 3px 3px #ccc;
     position: absolute;
     bottom: 0;
-}
+} */
 
 
 /* --컨텐츠03-- */

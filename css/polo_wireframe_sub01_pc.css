@@ -133,7 +133,6 @@ div.cntWrap>div.content div.header>h2{
 }
 div.cntWrap>div.content div.section>div.artView div.article>div.image{
     height: 400px;
-    background-color: #000;
 }
 div.cntWrap>div.content div.section>div.artView div.article>div.image:hover{
     box-shadow: 1px 1px 10px #000;
@@ -221,7 +220,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artView{
     overflow: hidden;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
-    width: 110%;
+    width: 174%;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup::after{
     display: block;
@@ -229,7 +228,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup::after{
     clear: both;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
-    width: calc(100% / 4 - 20px);
+    width: calc(100% / 6 - 20px);
     margin: 0px 10px;
     float: left;
 }
@@ -249,6 +248,12 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>d
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i4{
     background-image: url(../image/sub1pc_content1_article4.jpg);
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i5{
+    background-image: url(../image/sub1pc_content1_article5.jpg);
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i6{
+    background-image: url(../image/sub1pc_content1_article6.jpg);
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts{}
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>h3{}
@@ -275,27 +280,19 @@ div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn>i{
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn>i:hover{
     opacity: 90%;
 }
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar{
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars{
     margin-top: 40px;
-    position: relative;
 }
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>h4{
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars>h4{
     font-size: 20px;
     line-height: 40px;
     font-family: 'arial';
 }
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>div.per{
-    height: 5px;
-    width: 30%;
-    background-color: #000;
-    transition: width 0.5s;
-}
-div.cntWrap>div.content.cnt01>div.section>div.btns>div.bar>div.perBtm{
-    width: 100%;
-    height: 5px;
-    box-shadow: 3px 3px 3px #ccc;
-    position: absolute;
-    bottom: 0;
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars>div.bar{
+    width: calc((100vw - 1080px) / 2 + 100%);
+    min-width: calc((100vw - 80vw) / 2 + 100%);
+    height: 2px;
+    background-color: #333;
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.more{
     font-size: 12px;
@@ -350,8 +347,8 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section{
     position: relative;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView{
-    width: 110%;
-    margin-left: -10%;
+    width: 174%;
+    /* margin-left: -74%; */
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView::after{
     display: block;
@@ -359,26 +356,33 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView::after{
     clear: both;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article{
-    width: calc(100% / 4 - 20px);
+    width: calc(100% / 6 - 20px);
     margin: 0px 10px;
     float: right;
+    /* float: left; */
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image.i1{
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article.a1>div.image.i1{
     background-image: url(../image/sub1pc_content2_article1.jpg);
 }
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image.i2{
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article.a2>div.image.i2{
     background-image: url(../image/sub1pc_content2_article2.jpg);
 }
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image.i3{
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article.a3>div.image.i3{
     background-image: url(../image/sub1pc_content2_article3.jpg);
 }
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image.i4{
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article.a4>div.image.i4{
     background-image: url(../image/sub1pc_content2_article4.jpg);
+}
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article.a5>div.image.i5{
+    background-image: url(../image/sub1pc_content2_article5.jpg);
+}
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article.a6>div.image.i6{
+    background-image: url(../image/sub1pc_content2_article6.jpg);
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.texts{}
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.texts>h3{}
@@ -405,36 +409,20 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.btn>i{
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.btn>i:hover{
     opacity: 90%;
 }
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar{
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bars{
     margin-top: 40px;
-    width: 70%;
-    position: relative;
     margin-left: auto;
 }
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar::after{
-    display: block;
-    content: '';
-    clear: both;
-}
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar>h4{
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bars>h4{
     font-size: 20px;
     line-height: 40px;
     text-align: right;
     font-family: 'arial';
 }
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar>div.per{
-    width: 30%;
-    height: 5px;
-    background-color: #000;
-    float: right;
-    transition: width 0.5s;
-}
-div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bar>div.perBtm{
+div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bars>div.bar{
     width: 100%;
-    height: 5px;
-    box-shadow: 3px 3px 3px #ccc;
-    position: absolute;
-    bottom: 0;
+    height: 2px;
+    background-color: #333;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.more{
     font-size: 12px;
@@ -513,7 +501,7 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.section{
     position: relative;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView{
-    width: 110%;
+    width: 174%;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView::after{
     display: block;
@@ -521,7 +509,7 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView::after{
     clear: both;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article{
-    width: calc(100% / 4 - 20px);
+    width: calc(100% / 6 - 20px);
     margin: 0px 10px;
     float: left;
 }
@@ -541,6 +529,12 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>d
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.image.i4{
     background-image: url(../image/sub1pc_content3_article4.jpg);
+}
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.image.i5{
+    background-image: url(../image/sub1pc_content3_article5.jpg);
+}
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.image.i6{
+    background-image: url(../image/sub1pc_content3_article6.jpg);
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.texts{}
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.artView>div.article>div.texts>h3{}
@@ -567,27 +561,18 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.btn>i{
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.btn>i:hover{
     opacity: 90%;
 }
-div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bar{
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bars{
     margin-top: 40px;
 }
-div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bar>h4{
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bars>h4{
     font-size: 20px;
     line-height: 40px;
     font-family: 'arial';
 }
-div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bar>div.per{
-    width: 30%;
-    height: 5px;
-    background-color: #000;
-    float: right;
-    transition: width 0.5s;
-}
-div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bar>div.perBtm{
+div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bars>div.bar{
     width: 100%;
-    height: 5px;
-    box-shadow: 3px 3px 3px #ccc;
-    position: absolute;
-    bottom: 0;
+    height: 2px;
+    background-color: #333;
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.more{
     font-size: 12px;
@@ -641,8 +626,8 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section{
     position: relative;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView{
-    width: 110%;
-    margin-left: -10%;
+    width: 174%;
+    margin-left: -74%;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView::after{
     display: block;
@@ -650,7 +635,7 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView::after{
     clear: both;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article{
-    width: calc(100% / 4 - 20px);
+    width: calc(100% / 6 - 20px);
     margin: 0px 10px;
     float: right;
 }
@@ -670,6 +655,12 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>di
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.image.i4{
     background-image: url(../image/sub1pc_content4_article4.jpg);
+}
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.image.i5{
+    background-image: url(../image/sub1pc_content4_article5.jpg);
+}
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.image.i6{
+    background-image: url(../image/sub1pc_content4_article6.jpg);
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.texts{}
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView>div.article>div.texts>h3{}
@@ -691,27 +682,24 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.btn{
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.btn>i{
     text-shadow: 1px 1px 4px #000;
+    opacity: 40%;
 }
-div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bar{
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.btn>i:hover{
+    opacity: 90%;
+}
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bars{
     margin-top: 40px;
-    width: 100%;
 }
-div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bar::after{
-    display: block;
-    content: '';
-    clear: both;
-}
-div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bar>h4{
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bars>h4{
     font-size: 20px;
     line-height: 40px;
     text-align: right;
     font-family: 'arial';
 }
-div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bar>div.per{
-    width: 30%;
-    height: 5px;
-    float: right;
-    background-color: #000;
+div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bars>div.bar{
+    width: 100%;
+    height: 2px;
+    background-color: #333;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.more{
     font-size: 12px;
@@ -720,6 +708,8 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.more{
     cursor: pointer;
     font-family: 'arial';
 }
+
+
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.more>span{}
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.more>i{}
 div.cntWrap>div.content.cnt04>div.cntRight{
