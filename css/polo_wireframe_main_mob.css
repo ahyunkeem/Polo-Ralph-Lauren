@@ -124,10 +124,13 @@ div.bnrWrap>div.banner>div.video{
     height: 100%;
 }
 
-/* 컨텐츠03 */
+/* 컨텐츠02 */
 div.cntWrap>div.content.cnt02>div.header>h2{
     font-size: 20px;
     line-height: 20px;
+}
+div.cntWrap>div.content.cnt02>div.section{
+    height: 780px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.images>div.image{
     height: 240px;

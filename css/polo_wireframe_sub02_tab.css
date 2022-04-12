@@ -186,6 +186,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artView{
     width: calc((100vw - 700px) / 2 + 100%);
     min-width: calc((100vw - 90vw) / 2 + 100%);
     margin-left: calc((100vw - 700px) / -2);
+    height: 340px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image{
     height: 240px;

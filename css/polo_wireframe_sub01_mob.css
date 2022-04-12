@@ -126,6 +126,7 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView{
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section{
     width: 100%;
     min-width: 100%;
+    height: 440px;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article{
     width: calc(100% / 2 - 20px);
@@ -149,6 +150,7 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bars{
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.more{
     font-size: 10px;
+    margin-top: 400px;
 }
 
 /* 컨텐츠03 */
@@ -217,6 +219,7 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section{
     width: 100%;
     min-width: 100%;
     margin-left: 0;
+    height: 400px;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView{
     width: 100%;
@@ -241,6 +244,7 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bars{
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.more{
     font-size: 10px;
+    margin-top: 360px;
 }
 
 /* 푸터 */

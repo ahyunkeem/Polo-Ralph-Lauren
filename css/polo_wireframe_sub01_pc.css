@@ -345,10 +345,13 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section{
     float: left;
     overflow: hidden;
     position: relative;
+    position: relative;
+    height: 592px;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView{
     width: 174%;
-    /* margin-left: -74%; */
+    position: absolute;
+    right: 0;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView::after{
     display: block;
@@ -359,7 +362,6 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article{
     width: calc(100% / 6 - 20px);
     margin: 0px 10px;
     float: right;
-    /* float: left; */
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.artView>div.article>div.image{
     background-size: cover;
@@ -410,7 +412,7 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.btn>i:hover{
     opacity: 90%;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bars{
-    margin-top: 40px;
+    margin-top: 510px;
     margin-left: auto;
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.bars>h4{
@@ -446,8 +448,6 @@ div.cntWrap>div.content.cnt02>div.cntRight>div.ovrView{
     background-position: center;
     background-image: url(../image/sub1pc_comtent2_ovrView.jpg);
 }
-
-
 
 
 /* 컨텐츠03 */
@@ -584,7 +584,6 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.more>span{}
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.more>i{}
 
 
-
 /* 컨텐츠04 */
 div.cntWrap>div.content.cnt04{}
 div.cntWrap>div.content.cnt04::after{
@@ -624,10 +623,12 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section{
     float: left;
     overflow: hidden;
     position: relative;
+    height: 592px;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView{
     width: 174%;
-    margin-left: -74%;
+    position: absolute;
+    right: 0;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.artView::after{
     display: block;
@@ -688,7 +689,7 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.btn>i:hover{
     opacity: 90%;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bars{
-    margin-top: 40px;
+    margin-top: 510px;
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.bars>h4{
     font-size: 20px;
@@ -708,8 +709,6 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.more{
     cursor: pointer;
     font-family: 'arial';
 }
-
-
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.more>span{}
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.more>i{}
 div.cntWrap>div.content.cnt04>div.cntRight{
@@ -792,7 +791,7 @@ div.ftrWrap>div.footer>div.ftrBtm>div.form>p{
     line-height: 20px;
     margin-top: 20px;
 }
-div.ftrWrap>div.footer>div.ftrBtm>div.form>input{
+div.ftrWrap>div.footer>div.ftrBtm>div.form>form>input{
     background-color: #041e3a;
     color: #fff;
     width: calc(100% / 6 * 3);
@@ -801,7 +800,7 @@ div.ftrWrap>div.footer>div.ftrBtm>div.form>input{
     height: 30px;
     font-size: 10px;
 }
-div.ftrWrap>div.footer>div.ftrBtm>div.form>button{
+div.ftrWrap>div.footer>div.ftrBtm>div.form>form>button{
     background-color: #041e3a;
     color: #fff;
     margin-left: -5px;
@@ -809,4 +808,5 @@ div.ftrWrap>div.footer>div.ftrBtm>div.form>button{
     border-bottom: 1px solid #fff;
     height: 30px;
     font-size: 10px;
+    cursor: pointer;
 }

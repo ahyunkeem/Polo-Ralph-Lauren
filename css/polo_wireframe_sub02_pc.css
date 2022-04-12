@@ -188,7 +188,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artView{
     overflow: hidden;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
-    width: 130%;
+    width: 150%;
     height: 290px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup::after{
@@ -312,10 +312,13 @@ div.cntWrap>div.content.cnt02>div.section>div.artView{
     min-width: calc((100vw - 80vw) / 2 + 100%);
     overflow: hidden;
     margin-left: calc((100vw - 1080px) / -2);
+    position: relative;
+    height: 490px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup{
     width: 164%;
-    margin-left: -64%;
+    position: absolute;
+    right: 0;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup::after{
     display: block;
@@ -706,7 +709,7 @@ div.ftrWrap>div.footer>div.ftrBtm>div.form>p{
     line-height: 20px;
     margin-top: 20px;
 }
-div.ftrWrap>div.footer>div.ftrBtm>div.form>input{
+div.ftrWrap>div.footer>div.ftrBtm>div.form>form>input{
     background-color: #041e3a;
     color: #fff;
     width: calc(100% / 6 * 3);
@@ -715,7 +718,7 @@ div.ftrWrap>div.footer>div.ftrBtm>div.form>input{
     height: 30px;
     font-size: 10px;
 }
-div.ftrWrap>div.footer>div.ftrBtm>div.form>button{
+div.ftrWrap>div.footer>div.ftrBtm>div.form>form>button{
     background-color: #041e3a;
     color: #fff;
     margin-left: -5px;
@@ -723,4 +726,5 @@ div.ftrWrap>div.footer>div.ftrBtm>div.form>button{
     border-bottom: 1px solid #fff;
     height: 30px;
     font-size: 10px;
+    cursor: pointer;
 }
