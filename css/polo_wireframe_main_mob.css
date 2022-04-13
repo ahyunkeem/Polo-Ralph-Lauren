@@ -107,7 +107,7 @@ div.cntWrap>div.content.cnt01>div.section>div.btns>div.more{
     font-size: 10px;
     line-height: 40px;
     text-align: right;
-    cursor: pointer;
+    cursor: not-allowed;
     font-family: 'arial';
 }
 

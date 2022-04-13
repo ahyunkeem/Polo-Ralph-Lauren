@@ -65,7 +65,7 @@ div.hdrWrap>div.header>ul.nav>li{
     float: left;
     margin-left: 30px;
     font-size: 15px;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 div.hdrWrap>div.header>ul.nav>li:nth-child(4){
     display: none;
@@ -607,7 +607,7 @@ div.cntWrap>div.content.cnt03>div.section>div.btn{
     font-size: 12px;
     line-height: 40px;
     text-align: right;
-    cursor: pointer;
+    cursor: not-allowed;
     font-family: 'arial';
 }
 div.cntWrap>div.content.cnt03>div.section>div.btn>span{}
@@ -650,7 +650,7 @@ div.ftrWrap>div.footer>div.ftrTop>ul.nav{
 div.ftrWrap>div.footer>div.ftrTop>ul.nav>li{
     float: left;
     margin-left: 20px;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 div.ftrWrap>div.footer>div.ftrBtm{
     line-height: 40px;
@@ -666,7 +666,7 @@ div.ftrWrap>div.footer>div.ftrBtm>div.sns{
     width: 50%;
 }
 div.ftrWrap>div.footer>div.ftrBtm>div.sns>i{
-    cursor: pointer;
+    cursor: not-allowed;
 }
 div.ftrWrap>div.footer>div.ftrBtm>div.form{
     float: right;

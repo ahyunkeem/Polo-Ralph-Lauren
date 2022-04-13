@@ -298,7 +298,7 @@ div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars>div.bar{
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.more{
     font-size: 12px;
     line-height: 40px;
-    cursor: pointer;
+    cursor: not-allowed;
     font-family: 'arial';
 }
 div.cntWrap>div.content.cnt01>div.section>div.btns>div.more>span{}
@@ -431,7 +431,7 @@ div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.more{
     font-size: 12px;
     line-height: 40px;
     text-align: right;
-    cursor: pointer;
+    cursor: not-allowed;
     font-family: 'arial';
 }
 div.cntWrap>div.content.cnt02>div.cntLeft>div.section>div.btns>div.more>span{}
@@ -578,7 +578,7 @@ div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.bars>div.bar
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.more{
     font-size: 12px;
     line-height: 40px;
-    cursor: pointer;
+    cursor: not-allowed;
     font-family: 'arial';
 }
 div.cntWrap>div.content.cnt03>div.cntRight>div.section>div.btns>div.more>span{}
@@ -707,7 +707,7 @@ div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.more{
     font-size: 12px;
     line-height: 40px;
     text-align: right;
-    cursor: pointer;
+    cursor: not-allowed;
     font-family: 'arial';
 }
 div.cntWrap>div.content.cnt04>div.cntLeft>div.section>div.btns>div.more>span{}
@@ -763,7 +763,7 @@ div.ftrWrap>div.footer>div.ftrTop>ul.nav{
 div.ftrWrap>div.footer>div.ftrTop>ul.nav>li{
     float: left;
     margin-left: 20px;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 div.ftrWrap>div.footer>div.ftrBtm{
     line-height: 40px;
@@ -779,7 +779,7 @@ div.ftrWrap>div.footer>div.ftrBtm>div.sns{
     width: 50%;
 }
 div.ftrWrap>div.footer>div.ftrBtm>div.sns>i{
-    cursor: pointer;
+    cursor: not-allowed;
 }
 div.ftrWrap>div.footer>div.ftrBtm>div.form{
     float: right;

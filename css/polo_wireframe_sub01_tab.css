@@ -58,7 +58,7 @@ div.menuWrap>div.menu>ul.mnTop>li>h4{
     font-size: 25px;
     line-height: 50px;
     text-transform: uppercase;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 div.menuWrap>div.menu>ul.mnBtm{
     position: absolute;
@@ -69,7 +69,7 @@ div.menuWrap>div.menu>ul.mnBtm>li{
     font-size: 25px;
     line-height: 50px;
     text-transform: uppercase;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
 /* 헤더 */
@@ -89,6 +89,7 @@ div.hdrWrap>div.header>ul.nav>li{
 div.hdrWrap>div.header>ul.nav>li:nth-child(4){
     display: block;
     font-size: 30px;
+    cursor: pointer;
 }
 
 /* 네브박스 */
