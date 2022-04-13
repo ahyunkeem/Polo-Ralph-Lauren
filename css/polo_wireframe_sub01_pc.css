@@ -133,6 +133,7 @@ div.cntWrap>div.content div.header>h2{
 }
 div.cntWrap>div.content div.section>div.artView div.article>div.image{
     height: 400px;
+    text-indent: -9999px;
 }
 div.cntWrap>div.content div.section>div.artView div.article>div.image:hover{
     box-shadow: 1px 1px 10px #000;
