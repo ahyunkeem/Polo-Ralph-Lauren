@@ -1,0 +1,191 @@
+/* 메뉴 tab */
+div.menuWrap>div.menu>h1{
+    font-size: 19px;
+    line-height: 40px;
+}
+div.menuWrap>div.menu>div.btn{
+    font-size: 15px;
+    line-height: 40px;
+}
+div.menuWrap>div.menu>ul.mnTop{
+    margin-top: 20px;
+}
+div.menuWrap>div.menu>ul.mnTop>li:nth-child(odd){
+    font-size: 16px;
+    line-height: 40px;
+}
+div.menuWrap>div.menu>ul.mnTop>li>h4{
+    font-size: 12px;
+    line-height: 20px;
+}
+div.menuWrap>div.menu>ul.mnTop>li.show+li{
+    height: 80px;
+}
+div.menuWrap>div.menu>ul.mnBtm>li{
+    font-size: 12px;
+    line-height: 30px;
+}
+
+/* 헤더 */
+div.hdrWrap{
+    height: 40px;
+}
+div.hdrWrap>div.header{
+    line-height: 40px;
+}
+div.hdrWrap>div.header>h1{
+    font-size: 19px;
+}
+div.hdrWrap>div.header>ul.nav>li:nth-child(4){
+    font-size: 15px;
+}
+
+/* 메인 */
+div.mainWrap>div.main>div.image{
+    width: 100%;
+    height: 240px;
+}
+div.mainWrap>div.main>h2{
+    font-size: 20px;
+    line-height: 20px;
+    bottom: -40px;
+}
+div.mainWrap>div.main>h2>br{
+    display: none;
+}
+
+/* 배너 */
+div.bnrWrap{
+    margin-top: 120px;
+}
+div.bnrWrap>div.banner>div.bnrTop{
+    height: 120px;
+}
+div.bnrWrap>div.banner>div.bnrBtm>div.texts>h2{
+    font-size: 20px;
+    line-height: 20px;
+}
+div.bnrWrap>div.banner>div.bnrBtm>div.images>div.image{
+    width: calc(100% / 2 - 20px);
+    height: 120px;
+}
+div.bnrWrap>div.banner>div.bnrBtm>div.images>div.image:nth-child(2)~div.image{
+    margin-top: 20px;
+}
+div.bnrWrap>div.banner>div.bnrBtm>div.texts>p{
+    font-size: 15px;
+    bottom: -340px;
+}
+
+/* 컨텐츠 공통 */
+div.cntWrap>div.content>div.section{
+    margin-top: 20px;
+}
+
+/* 컨텐츠01 */
+div.cntWrap>div.content.cnt01>div.header>h2{
+    font-size: 20px;
+    line-height: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView{
+    width: 100%;
+    min-width: 100%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
+    width: 100%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
+    width: calc(100% / 2 - 20px);
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article:nth-child(2)~div.article{
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article:nth-child(4)~div.article{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
+    height: 120px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i1{
+    height: 160px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts{
+    margin-top: 0;
+}
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.bars{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>h3{
+    font-size: 10px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>h5{
+    font-size: 10px;
+    padding-top: 0;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>div.swatch{
+    font-size: 10px;
+    margin: 0 2px;
+    padding-top: 0px;
+    text-align: center;
+}
+div.cntWrap>div.content.cnt01>div.section>div.btns>div.more{
+    font-size: 10px;
+    text-align: right;
+}
+
+/* 컨텐츠02 */
+div.cntWrap>div.content.cnt02>div.header>h2{
+    font-size: 20px;
+    line-height: 20px;
+}
+div.cntWrap>div.content.cnt02>div.section{
+    margin-top: 0px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article{
+    width: calc(100% / 2 - 20px);
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
+    height: 120px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>h3{
+    font-size: 10px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>h5{
+    font-size: 10px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.more{
+    font-size: 10px;
+    bottom: -40px;
+}
+
+/* 푸터 */
+div.ftrWrap{
+    margin-top: 120px;
+}
+div.ftrWrap>div.footer{
+    padding: 20px 0px;
+}
+div.ftrWrap>div.footer>div.ftrTop{
+    line-height: 20px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h1{
+    font-size: 18px;
+}
+div.ftrWrap>div.footer>div.ftrTop>ul.nav{
+    font-size: 10px;
+    width: calc(100% / 12 * 11.5);
+    margin: 0 auto;
+}
+div.ftrWrap>div.footer>div.ftrTop>ul.nav>li{
+    margin: 0px 5px;
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    line-height: 20px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.sns{
+    font-size: 15px;
+}
