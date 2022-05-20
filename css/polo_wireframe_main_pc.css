@@ -679,7 +679,7 @@ div.ftrWrap>div.footer>div.ftrBtm>div.form>p{
     line-height: 20px;
     margin-top: 20px;
 }
-div.ftrWrap>div.footer>div.ftrBtm>div.form>form>label>input{
+div.ftrWrap>div.footer>div.ftrBtm>div.form>form>input{
     background-color: #041e3a;
     color: #fff;
     width: calc(100% / 6 * 3);
@@ -688,7 +688,7 @@ div.ftrWrap>div.footer>div.ftrBtm>div.form>form>label>input{
     height: 30px;
     font-size: 10px;
 }
-div.ftrWrap>div.footer>div.ftrBtm>div.form>form>label>button{
+div.ftrWrap>div.footer>div.ftrBtm>div.form>form>button{
     background-color: #041e3a;
     color: #fff;
     margin-left: -5px;
