@@ -428,7 +428,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>d
     width: calc(100% / 12 * 5);
     float: left;
     font-family: 'bask';
-    padding-left: 11%;
+    padding-left: 4%;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.texts>h3{
     font-size: 200px;
