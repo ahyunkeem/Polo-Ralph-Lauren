@@ -256,9 +256,6 @@ div.cntWrap>div.content.cnt02>div.section>div.btns{
 }
 
 /* 컨텐츠03 */
-/* div.cntWrap:nth-child(8){
-    margin-top: 1320px;
-} */
 div.cntWrap>div.content.cnt03>div.header>h1{
     font-size: 40px;
 }

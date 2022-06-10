@@ -270,10 +270,6 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
     margin: 0px 10px;
     float: left;
 }
-/* div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article:nth-child(1)~div.article>div.image:hover{
-    box-shadow: 1px 1px 10px #000;
-    cursor: pointer;
-} */
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image:hover{
     box-shadow: 1px 1px 10px #000;
     cursor: pointer;
@@ -432,14 +428,8 @@ div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i3{
 div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i4{
     background-image: url('../image/sub3_content2_article4.jpg')
 }
-/* div.cntWrap>div.content.cnt02>div.section>div.article>div.image:hover+div.texts{
-    height: 80px;
-    margin-top: -80px;
-} */
 div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
     text-align: center;
-    /* overflow: hidden;
-    height: 0px; */
     height: 80px;
     margin-top: -80px;
     font-family: 'arial';
