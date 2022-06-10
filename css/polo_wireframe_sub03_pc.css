@@ -510,7 +510,7 @@ div.ftrWrap>div.footer>div.ftrBtm>div.sns{
     width: 50%;
 }
 div.ftrWrap>div.footer>div.ftrBtm>div.sns>i{
-    cursor: not-allowed;
+    cursor: pointer;
 }
 div.ftrWrap>div.footer>div.ftrBtm>div.form{
     float: right;
